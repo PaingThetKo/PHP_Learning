@@ -14,7 +14,7 @@
     </style>
 <body>
     <h1>
-        <?= "Hello ". $_GET['name']; ?>
+        <?= "Hello ". htmlspecialchars($_GET['name']); ?>
      </h1>
 </body>
 </html>
