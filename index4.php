@@ -13,6 +13,11 @@
         }
     </style>
 <body>
-    <h1><?= "Hello " .htmlspecialchars($_GET['name']); ?></h1>
+    <h1>
+        <?php
+            $name= 'Paing';
+            echo "Hello ". $name;
+        ?>
+     </h1>
 </body>
 </html>
