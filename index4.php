@@ -14,10 +14,7 @@
     </style>
 <body>
     <h1>
-        <?php
-            $name= $_GET['name'];
-            echo "Hello ". $name;
-        ?>
+        <?= "Hello ". $_GET['name']; ?>
      </h1>
 </body>
 </html>
