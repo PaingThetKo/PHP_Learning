@@ -15,7 +15,7 @@
 <body>
     <h1>
         <?php
-            $name= 'Paing';
+            $name= $_GET['name'];
             echo "Hello ". $name;
         ?>
      </h1>
