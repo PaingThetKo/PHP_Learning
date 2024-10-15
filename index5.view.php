@@ -14,7 +14,7 @@
     </style>
 <body>
     <h1>
-        <?= "Hello ". htmlspecialchars($_GET['age']); ?>
+        <?= $greeting; ?>
      </h1>
 </body>
 </html>
