@@ -15,7 +15,7 @@
 <body>
     <ul>
         <?php foreach($animals as $animal) : ?>
-
+            <li><?= $animal; ?></li>
         <?php endforeach ; ?>
  
     </ul>
