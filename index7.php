@@ -1,10 +1,8 @@
 <?php
 
-$name =[
-    "Paing Thet Ko",
-    "Kyaw Kyaw",
-    "Ko Ko",
-    "Aung Aung"
+$animals=[
+    'cat',
+    'dog'
 ];
 
-require "index6.view.php";
+require "index7.view.php";
