@@ -14,11 +14,10 @@
     </style>
 <body>
     <ul>
-        <?php
-            foreach ($name as $name){
-                echo "<li> $name </li>";
-            }
-        ?>
+        <?php foreach ($name as $name) : ?>
+            <li> <?= $name ?></li>
+
+        <?php endforeach; ?>
     </ul>
 </body>
 </html>
