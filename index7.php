@@ -8,4 +8,7 @@ $person = [
     "hair" => "Black"
 ];
 
-require "index7.view.php";
+foreach($person as $appearance){
+    echo $appearance.", ";
+}
+// require "index7.view.php";
