@@ -8,5 +8,9 @@ $person = [
     "hair" => "Black"
 ];
 
+$person["School"] = "OTS";
 
-require "index7.view.php";
+echo "<pre>";
+var_dump($person);
+
+// require "index7.view.php";
