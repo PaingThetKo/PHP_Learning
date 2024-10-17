@@ -13,5 +13,11 @@ $person["School"] = "OTS";
 echo "<pre>";
 print_r($person);
 
-die();
+// die dumb
+// dd ()
+
+die (var_dump($person));
+
+// die();
+
 require "index7.view.php";
