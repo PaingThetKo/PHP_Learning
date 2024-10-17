@@ -11,6 +11,6 @@ $person = [
 $person["School"] = "OTS";
 
 echo "<pre>";
-var_dump($person);
+print_r($person);
 
 // require "index7.view.php";
