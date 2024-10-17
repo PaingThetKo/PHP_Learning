@@ -8,7 +8,5 @@ $person = [
     "hair" => "Black"
 ];
 
-foreach($person as $key=>$appearance){
-    echo $key." is ".$appearance.", ";
-}
-// require "index7.view.php";
+
+require "index7.view.php";
