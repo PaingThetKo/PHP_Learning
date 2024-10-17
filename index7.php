@@ -13,4 +13,5 @@ $person["School"] = "OTS";
 echo "<pre>";
 print_r($person);
 
-// require "index7.view.php";
+die();
+require "index7.view.php";
