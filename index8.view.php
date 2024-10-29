@@ -7,11 +7,13 @@
 </head>
 <body>
     <ul>
-        <?php foreach ($task as $detail): ?>
-
-            <li><?= $detail; ?></li>
-
-        <?php endforeach; ?> 
+        <li>Task title is : <?= $task['title'];?></li>
+        <li>Task due date is : <?= $task['due'] ?></li>
+        <li>Task is : 
+            <?php
+                echo $task['complete'] ? "Complete" : "Incomplete"
+            ?>
+        </li>
     </ul>
 </body>
 </html>
