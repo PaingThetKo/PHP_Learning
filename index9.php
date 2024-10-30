@@ -1,3 +1,10 @@
 <?php
-    $myName= "Paing Thet Ko";
-    echo $myName;
+
+    // Numeric array
+    $names=[
+        "Paing Thet Ko",
+        "Kyaw Kyaw",
+        "Aung Aung"
+    ];
+    echo "<pre>";
+    var_dump($names);
