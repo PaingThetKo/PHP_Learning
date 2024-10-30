@@ -6,5 +6,20 @@
         "Kyaw Kyaw",
         "Aung Aung"
     ];
-    echo "<pre>";
-    var_dump($names);
+
+    foreach ($names as $key=>$name){
+        echo $key." - ".$name, " ";
+    }
+
+
+    // Associated Array
+    $personBio=[
+        "name"=> "Paing Thet Ko",
+        "age" => 22,
+        "isMarried" => false
+    ];
+
+    foreach($personBio as $key=>$feature){
+        echo $key." - ".$feature," ";
+    }
+
