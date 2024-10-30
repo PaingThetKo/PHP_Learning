@@ -10,13 +10,13 @@
     foreach ($names as $key=>$name){
         echo $key." - ".$name, " ";
     }
-
+    die(var_dump($names));
 
     // Associated Array
     $personBio=[
         "name"=> "Paing Thet Ko",
         "age" => 22,
-        "isMarried" => false
+        "isMarried" => true
     ];
 
     foreach($personBio as $key=>$feature){
